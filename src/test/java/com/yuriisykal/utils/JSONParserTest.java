@@ -22,5 +22,6 @@ class JSONParserTest {
        List<Book> books = jsonParser.parseJsonFiles("src/main/resources");
        Assertions.assertEquals(3,books.size());
     }
+
 }
 //PLGQ35MXLBYQHUTVU48AXK78
