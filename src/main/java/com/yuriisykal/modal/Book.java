@@ -6,7 +6,7 @@ public abstract class Book {
     private String title;
     private String author;
     private int year_published;
-    private String genres;
+    private String genre;
 
 
     public Book() {
@@ -16,7 +16,7 @@ public abstract class Book {
         this.title = title;
         this.author = author;
         this.year_published = year_published;
-        this.genres = genres;
+        this.genre = genres;
     }
 
     public String getTitle() {
@@ -44,11 +44,11 @@ public abstract class Book {
     }
 
     public String getGenre() {
-        return genres;
+        return genre;
     }
 
-    public void setGenre(String genres) {
-        this.genres = genres;
+    public void setGenre(String genre) {
+        this.genre = genre;
     }
 
     @Override
@@ -57,7 +57,7 @@ public abstract class Book {
                 "title='" + title + '\'' +
                 ", author='" + author + '\'' +
                 ", year_published=" + year_published +
-                ", genres='" + genres + '\'' +
+                ", genres='" + genre + '\'' +
                 '}';
     }
 }
