@@ -24,7 +24,6 @@ public class Item {
         this.count = count;
     }
 
-    // Геттеры и сеттеры
     public String getValue() {
         return value;
     }
